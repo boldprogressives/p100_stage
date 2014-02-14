@@ -1,4 +1,4 @@
 safe: true
 lsi: false
 pygments: true
-baseurl: "http://laura-boldprogressive.github.io/p100_stage/"
+baseurl: "/p100_stage"
