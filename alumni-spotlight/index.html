@@ -179,13 +179,10 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 <div class="col-md-4"> <a href="#contact" data-toggle="modal" data-type="hire-grad" class="btn btn-primary btn-large">Hire a Grad</a></div>
 </div>
 <div class="row">
-<div id="spotlight_carousel" class="carousel slide" data-ride="carousel">
+<div id="spotlight_carousel" class="carousel slide" data-ride="carousel" data-interval="false">
 
 <ol class="carousel-indicators">
-          <li><a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-         
-        </a></li>
-          <li data-target="#spotlight_carousel" data-slide-to="0" class="active"></li>
+                   <li data-target="#spotlight_carousel" data-slide-to="0" class="active"></li>
           <li data-target="#spotlight_carousel" data-slide-to="1"></li>
           <li data-target="#spotlight_carousel" data-slide-to="2"></li>
           <li data-target="#spotlight_carousel" data-slide-to="3"></li>
@@ -193,10 +190,19 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
           <li data-target="#spotlight_carousel" data-slide-to="5"></li>
           <li data-target="#spotlight_carousel" data-slide-to="6"></li>
           
-        <li><a class="right carousel-control" href="#carousel-example-generic" data-slide="next" data-interval="false">
-          
-        </a></li>
+      
         </ol>
+        
+        <div class="increment_controls">
+           <a class="left carousel-control" href="#spotlight_carousel" data-slide="prev">
+         
+        </a>
+
+            <a class="right carousel-control" href="#spotlight_carousel" data-slide="next">
+          
+        </a>
+        </div>
+        
 <div class="carousel-inner">
 <div class="alumni_spot item active">
   <div class="thumbnail alumni"><img src="alumni-spotlight/img/branden.jpeg" alt="Photo of Branden J Snyder" />	</div>
