@@ -355,9 +355,16 @@ padding-left: 0;
 bottom: auto;
 }
 
-#spotlight_carousel .carousel-indicators li {
+#spotlight_carousel .carousel-indicators li.active {
   background-color: #1a86ab;
   border: 1px solid #1a86ab;
+}
+
+#spotlight_carousel .carousel-indicators li {
+  background-color: #eee;
+  border: 1px solid #eee;
+  width:12px;
+  height: 12px;
 }
 
 a.right.carousel-control, a.left.carousel-control{
