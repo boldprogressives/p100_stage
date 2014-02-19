@@ -425,7 +425,14 @@ I first found my passion for politics when I worked as a Field Organizer in 2012
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/pccc-ak-async-post.js"></script>
-    
+    <script type="text/javascript">
+      $('.carousel').bind('slide', function(e) {
+    setTimeout(function () {
+        var next_h = $(e.relatedTarget).outerHeight();
+        $('.carousel').css('height', next_h);
+    }, 10);
+});
+    </script>
     
     <script src="js/forms.js"></script>
     
