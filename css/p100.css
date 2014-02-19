@@ -360,7 +360,15 @@ bottom: auto;
   border: 1px solid #1a86ab;
 }
 
-a.left.carousel-control{
+a.right.carousel-control, a.left.carousel-control:after{
+  background: none;
+  color: #1a86ab;
+  font-size: 12px;
+}
+
+a.left.carousel-control:before{
+  content: "";
+  display:inline-block;
   width: 0;
   height: 0;
   	border-top: 10px solid transparent;
@@ -368,7 +376,9 @@ a.left.carousel-control{
 	border-right:10px solid #1a86ab; 
 }
 
-a.right.carousel-control{
+a.right.carousel-control:after{
+  content: "";
+  display:inline-block;
   width: 0;
   height: 0;
   	border-top: 10px solid transparent;
