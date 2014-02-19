@@ -352,11 +352,11 @@ padding-left: 0;
 }
 
 #spotlight_carousel .carousel-indicators {
-position: static !important;
+bottom: auto;
 }
 
 #spotlight_carousel .carousel-indicators li {
-  color: #1a86ab;
+  background-color: #1a86ab;
   border: 1px solid #1a86ab;
 }
 
