@@ -360,7 +360,7 @@ bottom: auto;
   border: 1px solid #1a86ab;
 }
 
-a.right.carousel-control, a.left.carousel-control:after{
+a.right.carousel-control, a.left.carousel-control{
   background: none;
   color: #1a86ab;
   font-size: 12px;
