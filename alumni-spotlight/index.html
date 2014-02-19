@@ -180,13 +180,11 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 </div>
 <div class="row">
 <div id="spotlight_carousel" class="carousel slide" data-ride="carousel">
-<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-         
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-          
-        </a>
+
 <ol class="carousel-indicators">
+          <li><a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+         
+        </a></li>
           <li data-target="#spotlight_carousel" data-slide-to="0" class="active"></li>
           <li data-target="#spotlight_carousel" data-slide-to="1"></li>
           <li data-target="#spotlight_carousel" data-slide-to="2"></li>
@@ -194,6 +192,10 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
           <li data-target="#spotlight_carousel" data-slide-to="4"></li>
           <li data-target="#spotlight_carousel" data-slide-to="5"></li>
           <li data-target="#spotlight_carousel" data-slide-to="6"></li>
+          
+        <li><a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          
+        </a></li>
         </ol>
 <div class="carousel-inner">
 <div class="alumni_spot item active">
@@ -365,7 +367,6 @@ I first found my passion for politics when I worked as a Field Organizer in 2012
 </div>
 </div>
 </div>
-
 </div>
 </div>
 </div>
@@ -418,6 +419,12 @@ I first found my passion for politics when I worked as a Field Organizer in 2012
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/pccc-ak-async-post.js"></script>
+    
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".carousel").carousel('pause');
+      });
+    </script>
     
     <script src="js/forms.js"></script>
     
