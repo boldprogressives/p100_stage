@@ -375,6 +375,7 @@ a.left.carousel-control:before{
   	border-top: 10px solid transparent;
 	border-bottom: 10px solid transparent; 
 	border-right:10px solid #1a86ab; 
+	vertical-align: middle;
 }
 
 a.right.carousel-control:after{
@@ -385,6 +386,7 @@ a.right.carousel-control:after{
   	border-top: 10px solid transparent;
 	border-bottom: 10px solid transparent; 
 	border-left:10px solid #1a86ab; 
+	vertical-align: middle;
 }
 
 
