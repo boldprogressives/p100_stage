@@ -360,6 +360,23 @@ bottom: auto;
   border: 1px solid #1a86ab;
 }
 
+a.left.carousel-control{
+  width: 0;
+  height: 0;
+  	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid blue; 
+}
+
+a.right.carousel-control{
+  width: 0;
+  height: 0;
+  	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-left:10px solid blue; 
+}
+
+
 img {
   /* Just in case there are inline attributes */
   width: 100%;
