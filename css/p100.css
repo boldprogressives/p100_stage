@@ -463,6 +463,12 @@ border-radius: 0;
   transform: scale(0.75);
 }
 
+.thumbnail.alumni:before, .thumbnail.alumni:after {
+  bottom: 13px;
+  height: 10px;
+  z-index: 0;
+}
+
 blockquote footer{
 	background: transparent;
 	color: inherit;
