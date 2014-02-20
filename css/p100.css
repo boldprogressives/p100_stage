@@ -455,9 +455,40 @@ border-radius: 0;
 }
 
 
-#content_card .thumbnail.alumni{
-width: 200px;
+.thumbnail.alumni{
+	border:0;
+	border-radius: 0;
+  position:relative;
+  z-index:2;
+  width: 200px;
 }
+
+.thumbnail.alumni:before, .thumbnail.alumni:after {
+
+	content: "";
+	position: absolute;
+	z-index: 0;
+	-ms-transform: skew(-3deg,-2deg);
+	-webkit-transform: skew(-3deg,-2deg); /* Safari and Chrome */
+	-o-transform: skew(-3deg,-2deg); /* Opera */
+	-moz-transform: skew(-3deg,-2deg); /* Firefox */
+	bottom: 14px;
+	box-shadow: 0 15px 5px rgba(0, 0, 0, 0.3);
+	height: 50px;
+	left: 1px;
+	max-width: 50%;
+	width: 50%;
+}
+.thumbnail.alumni:after {
+
+	-ms-transform: skew(3deg,2deg); /* IE 9 */
+	-webkit-transform: skew(3deg,2deg); /* Safari and Chrome */
+	-o-transform: skew(3deg,2deg); /* Opera */
+	-moz-transform: skew(3deg,2deg); /* Firefox */
+	left: auto;
+	right: 1px;
+}
+
 
 blockquote footer{
 	background: transparent;
