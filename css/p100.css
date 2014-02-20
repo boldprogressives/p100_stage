@@ -371,6 +371,7 @@ bottom: auto;
 width: 100%;
 float: none;
 margin-left:0;
+margin-top: 30px;
 }
 
 
@@ -472,8 +473,12 @@ footer a:link{
 	color: #fff;
 }
 
-a:link{
+a, a:link, a:hover, a:visited{
   color: #1a86ab;
+}
+
+a.btn{
+  color: #fff;
 }
 
 .form-control {
