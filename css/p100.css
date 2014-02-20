@@ -457,10 +457,7 @@ border-radius: 0;
 
 .thumbnail.alumni{
 
-  zoom: 0.75;
-  -moz-transform: scale(0.75);
-  -webkit-transform:scale (0.75);
-  transform: scale(0.75);
+width: 200px;
 }
 
 .thumbnail.alumni:before, .thumbnail.alumni:after {
