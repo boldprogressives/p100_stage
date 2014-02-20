@@ -367,6 +367,16 @@ bottom: auto;
   height: 12px;
 }
 
+#content_card .row.thumbnail {
+width: 100%;
+float: none;
+margin-left:0;
+}
+
+#spotlight_carousel{
+  background: #fff;
+}
+
 a.right.carousel-control, a.left.carousel-control{
   background: none;
   color: #1a86ab;
