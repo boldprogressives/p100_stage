@@ -400,7 +400,7 @@ a.left.carousel-control:before{
 	border-top: 6px solid rgba(0, 0, 0, 0);
 border-bottom: 6px solid rgba(0, 0, 0, 0);
 border-right: 8px solid #1A86AB;
-vertical-align: middle;
+vertical-align: baseline;
 margin-right: 4px;
 }
 
