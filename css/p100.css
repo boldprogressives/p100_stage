@@ -464,7 +464,7 @@ border-radius: 0;
 }
 
 .thumbnail.alumni:before, .thumbnail.alumni:after {
-  bottom: 13px;
+  bottom: 6px;
   height: 10px;
   z-index: 0;
 }
