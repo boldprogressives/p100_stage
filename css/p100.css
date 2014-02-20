@@ -456,14 +456,7 @@ border-radius: 0;
 
 
 .thumbnail.alumni{
-
 width: 200px;
-}
-
-.thumbnail.alumni:before, .thumbnail.alumni:after {
-  bottom: 3px;
-  height: 10px;
-  z-index: 0;
 }
 
 blockquote footer{
