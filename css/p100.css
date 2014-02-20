@@ -412,7 +412,7 @@ a.right.carousel-control:after{
   	border-top: 6px solid transparent;
 	border-bottom: 6px solid transparent; 
 	border-left:8px solid #1a86ab; 
-	vertical-align: middle;
+	vertical-align: baseline;
 	margin-left: 4px;
 }
 
