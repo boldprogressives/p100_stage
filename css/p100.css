@@ -415,10 +415,10 @@ a.right.carousel-control:after{
 
 .increment_controls{
   position: absolute;
-left: 50%;
+left: 0;
+top:0;
 z-index: 15;
-width: 60%;
-margin-left: -30%;
+width: 100%;
 padding-left: 0;
 list-style: none;
 text-align: center;
