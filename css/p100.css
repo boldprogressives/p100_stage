@@ -487,7 +487,9 @@ border-radius: 0;
   padding: 60px 0;
 }
 
-
+.alumni_spot .thumbnail{
+  width: 200px;
+}
 
 blockquote footer{
 	background: transparent;
