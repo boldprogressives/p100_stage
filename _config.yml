@@ -1,16 +1,4 @@
 trainings:
-  - name: la_april_field
-    date: April 5-6, 2014
-    location: Baton Rouge, LA
-    type: Field Training
-  - name: dc_april_candidate
-    date: April 7-8, 2014
-    location: Washington, DC
-    type: Candidate Training
-  - name: ca_april_fin
-    date: April 12-13, 2014
-    location: Los Angeles, CA
-    type: Finance Training
   - name: ia_april_fin
     date: April 26-27, 2014
     location: Waterloo, IA
